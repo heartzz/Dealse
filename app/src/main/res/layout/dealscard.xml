@@ -1,0 +1,102 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/mainlinear"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout
+        android:id="@+id/ordersummerylayout"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/textView3"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/thingimg"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            />
+
+        <TextView
+            android:id="@+id/taskidtxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/thingimg"
+            android:layout_marginLeft="10dp"
+            android:textSize="0sp"
+            android:textColor="@color/textColorPrimary"
+            android:textStyle="bold"
+            android:text="01"
+            android:fontFamily="sans-serif" />
+
+        <TextView
+            android:id="@+id/sendernametxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jhon doe "
+            android:layout_below="@+id/taskidtxt"
+            android:layout_alignLeft="@+id/taskidtxt"
+            android:textColor="@color/textColorPrimary"
+            android:fontFamily="sans-serif"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"/>
+
+        <LinearLayout
+            android:id="@+id/sharelinear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sendernametxt"
+            android:layout_marginTop="5dp"
+            android:layout_alignLeft="@+id/taskidtxt"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/sharelbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Want to share  :-"
+            android:textColor="@color/textColorPrimary"
+            android:fontFamily="sans-serif"
+            android:textSize="16sp"
+            />
+
+            <TextView
+                android:id="@+id/sharetxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Want to share"
+                android:layout_below="@+id/todotext"
+                android:layout_alignLeft="@+id/taskname_txt"
+                android:textColor="@color/textColorPrimary"
+                android:fontFamily="sans-serif"
+                android:textSize="16sp"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/datetxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="19/06/2018 10:00 AM"
+            android:layout_below="@+id/sharelinear"
+            android:layout_alignLeft="@+id/taskidtxt"
+            android:textColor="@color/textColorPrimary"
+            android:fontFamily="sans-serif"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

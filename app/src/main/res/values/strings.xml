@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">DealSe</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="firebase_email" translatable="false">test@gmail.com</string>
+    <string name="firebase_password" translatable="false">password</string>
+    <string name="hint_email">Email Address</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Full Name</string>
+
+    <string name="login_mobile_hint">Mobile Number</string>
+    <string name="login_password_hint">Password</string>
+
+    <string name="register_firstname_hint">Full Name</string>
+    <string name="register_middlename_hint">Middle name</string>
+    <string name="register_lastname_hint">Last name</string>
+    <string name="register_adharnumber_hint">Aadhar number</string>
+    <string name="register_email_hint">Email</string>
+    <string name="register_gender_hint">Select gender</string>
+    <string name="register_birthdate_hint">Birthdate</string>
+
+    <string name="forgot_password">Forgot your password?</string>
+    <string name="register">Register</string>
+
+
+    <string name="storename1">Tea Post</string>
+
+    <string name="otp1">Verification</string>
+    <string name="otp2">Sit back and relax while we are verifing your mobile number</string>
+    <string name="otp3">(Enter the OTP below manually if we fail to detact automatically)</string>
+    <string name="otp4">(Enter OTP below manually if we fail to detact automatically)</string>
+    <string name="txtotpnotreceived">Did not receive OTP?  Resend Code</string>
+    <string name="pleasewait">Please wait</string>
+</resources>
